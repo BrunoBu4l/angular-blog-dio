@@ -1,10 +1,10 @@
 <div class="container__small-card">
   <div class="container__small-card-content">
     <div class="small-card__photo">
-      <img src="https://c4.wallpaperflare.com/wallpaper/948/524/61/windows-10-techno-wallpaper-preview.jpg" alt="">
+      <img src="{{photoCover}}" alt="">
     </div>
     <div class="small-card__title">
-      <h1><a href="#">Artigos High-Tech</a></h1>
+      <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
     </div>
   </div>
   <div class="container__small-card__separator">
